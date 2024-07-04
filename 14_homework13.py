@@ -11,7 +11,7 @@ for i in nums:
     count_ = 20
     if i < count_:
         for j in nums:
-            if (key_1 % (i + j) == 0) and j != i:
+            if (key_1 % (i + j) == 0) and j < i:
                 password.append(str(i) + str(j))
                 count_ = j
 
