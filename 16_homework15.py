@@ -10,4 +10,4 @@ def send_email(message, recipient, sender="university.help@gmail.com"):
     else:
         print(f"Невозможно отправить письмо с адреса {sender} на адрес {recipient}")
 
-send_email("Будь здоров.", "metadonkis@gmail.com")
+send_email("Будь здоров.", "metas@gmail.com")
